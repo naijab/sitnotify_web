@@ -20,18 +20,12 @@ var NewsSchema = new Schema({
         Required: 'enter category of news'
     },
     level: {
-        type: [{
-            type: String,
-            enum: ['Bachelor Degrees', 'Master Degrees', 'Doctor Degrees']
-        }],
-        default: ['Bachelor']
+        type: String,
+        Required: 'enter level of news'
     },
     program: {
-        type: [{
-            type: String,
-            enum: ['IT', 'CS', 'BIS', 'SE', 'Bio', 'IT (Weekend)', 'IT (Night)']
-        }],
-        default: ['IT']
+        type: String,
+        Required: 'enter program of news'
     },
     link: {
         type: String,
@@ -40,10 +34,6 @@ var NewsSchema = new Schema({
         type: String,
     },
     created_date: {
-        type: Date,
-        default: Date.now
-    },
-    edited_date: {
         type: Date,
         default: Date.now
     },
