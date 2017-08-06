@@ -7,7 +7,7 @@ var express = require('express'),
   // config = require('./config')
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://sigmadrivedb:KaHfiVrkqKBjdbnvRY97TncDuKRocBgrUPcGbd4SApZmJYNXVkoSwFrbj6lwemrM99wTf45dgsV9zLd8bh4phw==@sigmadrivedb.documents.azure.com:10255/?ssl=true&replicaSet=globaldb'); 
+mongoose.connect('mongodb://sigmadrivedb:KaHfiVrkqKBjdbnvRY97TncDuKRocBgrUPcGbd4SApZmJYNXVkoSwFrbj6lwemrM99wTf45dgsV9zLd8bh4phw==@sigmadrivedb.documents.azure.com:10255/?ssl=true'); 
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
