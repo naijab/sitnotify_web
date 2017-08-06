@@ -7,9 +7,6 @@ exports.list_all_news = function (req, res) {
     News.find({}, function (err, news) {
         if (err)
             res.send(err);
-        res.json({
-            message: 'News successfully created'
-        });
         res.json(news);
     });
 };
