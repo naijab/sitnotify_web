@@ -6,7 +6,7 @@ var mongoose = require('mongoose'),
 
 exports.list_all_news = function (req, res, next) {
     if (req.query.key === config.secretKey) {
-        News.find({}, function (err, news) {
+        News.find().sort({"_id": -1}).exec(function (err, news) {
             if (err)
                 res.send(err);
             res.json(news);
