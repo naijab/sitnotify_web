@@ -21,6 +21,6 @@
     "serve-favicon": "~2.4.2",
     "mongoose": "~4.11.6",
     "tedious": "~2.0.0",
-    "async": "~2.5.6"
+    "async": "~2.5.0"
   }
 }
