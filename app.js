@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 var config = require('./config.js');
 var mongoose = require('mongoose');
 var News = require('./models/newsModel');
+var Calendar = require('./models/calendarModel')
 
 var index = require('./routes/index');
 var api = require('./routes/api');

@@ -43,4 +43,4 @@ var NewsSchema = new Schema({
     }
 });
 
-module.exports = mongoose.model('News', NewsSchema);
+module.exports = mongoose.model('News', NewsSchema, 'NewsSITNotify');
