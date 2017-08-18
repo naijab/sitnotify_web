@@ -6,8 +6,10 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var config = require('./config.js');
 var mongoose = require('mongoose');
+
 var News = require('./models/newsModel');
-var Calendar = require('./models/calendarModel')
+var Calendar = require('./models/calendarModel');
+var Service = require('./models/serviceModel');
 
 var index = require('./routes/index');
 var api = require('./routes/api');
