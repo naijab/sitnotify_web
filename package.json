@@ -19,6 +19,8 @@
     "jade": "~1.11.0",
     "morgan": "~1.8.1",
     "serve-favicon": "~2.4.2",
-    "mongoose": "~4.11.6"
+    "mongoose": "~4.11.6",
+    "tedious": "~2.0.0",
+    "async": "~2.5.6"
   }
 }
