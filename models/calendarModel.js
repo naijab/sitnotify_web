@@ -14,6 +14,7 @@ var CalendarSchema = new Schema({
     },
     date: {
         type: String,
+        Required: 'enter date of calendar'
     },
     link: {
         type: String,
