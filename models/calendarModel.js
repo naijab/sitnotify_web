@@ -25,4 +25,4 @@ var CalendarSchema = new Schema({
     }
 });
 
-module.exports = mongoose.model('Calendar', CalendarSchema);
+module.exports = mongoose.model('Calendar', CalendarSchema, 'SitNotify');
